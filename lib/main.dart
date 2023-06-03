@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tshirt_designer_app/views/screens/design_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter App',
-      home: Scaffold(
-        body: Center(
-          child: Text('T Shirt Designer App'),
-        ),
-      )
+      home: DesignScreen(),
     );
   }
 }
